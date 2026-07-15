@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carta y precios — Lumbre y Oliva</title>
+    <meta name="description" content="Carta HTML del restaurante ficticio Lumbre y Oliva, con platos, precios y alérgenos orientativos.">
+    <link rel="canonical" href="https://lumbreyoliva.example/carta.html">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="demo-banner" role="note">Proyecto educativo de Aulafy · Carta y precios ficticios</div>
+    <header class="site-header"><div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Lumbre y Oliva, inicio"><span class="brand-mark" aria-hidden="true">L·O</span><span><strong>Lumbre y Oliva</strong><small>Cocina mediterránea</small></span></a>
+      <nav aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="carta.html" aria-current="page">Carta</a><a href="visita.html">Visita y reserva</a></nav>
+    </div></header>
+
+    <main id="contenido" tabindex="-1">
+      <header class="page-hero">
+        <p class="eyebrow">Carta de demostración · revisión 15/07/2026</p>
+        <h1>Platos que se pueden leer, comparar y compartir</h1>
+        <p>Precios sintéticos con IVA incluido. La composición y los alérgenos deben confirmarse siempre con el equipo antes de pedir.</p>
+      </header>
+
+      <nav class="category-nav" aria-label="Categorías de la carta">
+        <a href="#compartir">Para compartir</a><a href="#arroces">Arroces</a><a href="#brasa">Brasa</a><a href="#postres">Postres</a><a href="#alergenos">Alérgenos</a>
+      </nav>
+
+      <div class="menu-layout">
+        <div class="menu-main">
+          <section class="menu-section" id="compartir" aria-labelledby="compartir-title">
+            <div class="menu-heading"><span>01</span><div><p class="eyebrow">Centro de mesa</p><h2 id="compartir-title">Para compartir</h2></div></div>
+            <article class="menu-item"><div><h3>Pan de masa madre y aceite nuevo</h3><p>Hogaza tostada, aceite de oliva y sal de romero.</p><small>Gluten</small></div><strong>4,50 €</strong></article>
+            <article class="menu-item"><div><h3>Tomate, alcaparra y almendra</h3><p>Producto de temporada, vinagreta suave y almendra tostada.</p><small>Frutos de cáscara</small></div><strong>11 €</strong></article>
+            <article class="menu-item"><div><h3>Berenjena a la llama</h3><p>Crema de sésamo, hierbas frescas y pan crujiente.</p><small>Gluten · Sésamo</small></div><strong>10,50 €</strong></article>
+          </section>
+
+          <section class="menu-section" id="arroces" aria-labelledby="arroces-title">
+            <div class="menu-heading"><span>02</span><div><p class="eyebrow">Mínimo dos personas</p><h2 id="arroces-title">Arroces</h2></div></div>
+            <article class="menu-item"><div><h3>Arroz de verduras a la llama</h3><p>Alcachofa, judía verde, romero y limón.</p><small>Apio · Sulfitos</small></div><strong>19 € <em>/ persona</em></strong></article>
+            <article class="menu-item"><div><h3>Arroz de sepia y gamba</h3><p>Caldo de pescado, sepia, gamba y alioli suave.</p><small>Crustáceos · Huevo · Moluscos · Pescado</small></div><strong>23 € <em>/ persona</em></strong></article>
+          </section>
+
+          <section class="menu-section" id="brasa" aria-labelledby="brasa-title">
+            <div class="menu-heading"><span>03</span><div><p class="eyebrow">Fuego y temporada</p><h2 id="brasa-title">Brasa</h2></div></div>
+            <article class="menu-item"><div><h3>Coliflor, avellana y limón</h3><p>Coliflor asada, crema de avellana y limón encurtido.</p><small>Frutos de cáscara</small></div><strong>15 €</strong></article>
+            <article class="menu-item"><div><h3>Pollo de corral con hierbas</h3><p>Medio pollo, jugo de asado y patata chafada.</p><small>Leche · Sulfitos</small></div><strong>21 €</strong></article>
+            <article class="menu-item"><div><h3>Pescado del día</h3><p>Pieza disponible, verdura verde y salsa cítrica. Consulta especie y precio.</p><small>Pescado · Posibles trazas según pieza</small></div><strong>Según mercado</strong></article>
+          </section>
+
+          <section class="menu-section" id="postres" aria-labelledby="postres-title">
+            <div class="menu-heading"><span>04</span><div><p class="eyebrow">Final dulce</p><h2 id="postres-title">Postres</h2></div></div>
+            <article class="menu-item"><div><h3>Calabaza, yogur y miel</h3><p>Postre templado con especias y semilla de calabaza.</p><small>Leche</small></div><strong>7 €</strong></article>
+            <article class="menu-item"><div><h3>Chocolate, aceite y sal</h3><p>Cremoso de chocolate, aceite de oliva y escamas de sal.</p><small>Huevo · Leche · Puede contener frutos de cáscara</small></div><strong>7,50 €</strong></article>
+          </section>
+        </div>
+
+        <aside class="menu-aside" id="alergenos" aria-labelledby="allergen-title">
+          <p class="eyebrow">Información importante</p>
+          <h2 id="allergen-title">Alérgenos</h2>
+          <p>Las indicaciones son parte del ejemplo y no sustituyen la confirmación del restaurante. La cocina comparte superficies y puede haber trazas.</p>
+          <p><strong>Antes de pedir:</strong> comunica cualquier alergia o intolerancia al equipo y confirma ingredientes y manipulación.</p>
+          <a class="button button-secondary" href="visita.html#contacto">Consultar antes de la visita</a>
+        </aside>
+      </div>
+
+      <section class="cta-panel compact" aria-labelledby="menu-cta"><div><p class="eyebrow">Siguiente paso</p><h2 id="menu-cta">¿Has encontrado una opción adecuada?</h2></div><div><p>Consulta el horario y prepara una solicitud. No se confirma hasta recibir respuesta.</p><a class="button button-light" href="visita.html#reserva">Solicitar una mesa</a></div></section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-grid">
+      <div><strong>Lumbre y Oliva</strong><p>Negocio ficticio para aprender desarrollo web con Aulafy.</p></div>
+      <div><strong>Horario de ejemplo</strong><p>Mar–dom 13:00–16:00<br>Mar–sáb 20:00–23:30</p></div>
+      <div><strong>Contacto de demostración</strong><p><a href="tel:+34000000000">+34 000 000 000</a><br><a href="mailto:reservas@lumbreyoliva.example">reservas@lumbreyoliva.example</a></p></div>
+      <div><strong>Información</strong><p><a href="privacidad.html">Privacidad</a><br><a href="https://github.com/aulafy/taller">Código y licencia MIT</a></p></div>
+    </div><p class="footer-bottom">© <span data-year>2026</span> Aulafy · Ejemplo educativo, no establecimiento real.</p></footer>
+  </body>
+</html>

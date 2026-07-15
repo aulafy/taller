@@ -2,11 +2,13 @@
 
 Código, casos completos y laboratorios vinculados al curso de Aulafy.
 
-## Casos completos previstos
+## Casos disponibles
 
-### Restaurante ficticio — itinerario inicial
+### [Lumbre y Oliva: restaurante estático](./casos/restaurante-estatico/)
 
-Web móvil con contenido realista pero sintético, carta accesible, horarios, SEO local, solicitud de reserva, Vercel y dominio de demostración. Se construirá por etapas verificables sin fingir disponibilidad ni reseñas.
+Web móvil con contenido realista pero sintético, carta accesible, horarios, SEO local y solicitud de reserva. Está construida con HTML, CSS y JavaScript sin dependencias y se verifica con Node.js. No finge disponibilidad ni reseñas.
+
+## Casos previstos
 
 ### SaaS ficticio — itinerario avanzado
 

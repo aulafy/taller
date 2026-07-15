@@ -2,5 +2,15 @@
   "$schema": "./docs/catalogo.schema.json",
   "version": 1,
   "updated": "2026-07-15",
-  "examples": []
+  "examples": [
+    {
+      "id": "restaurante-estatico",
+      "course": "crear-webs-con-ia",
+      "title": "Lumbre y Oliva: web estática de un restaurante",
+      "kind": "caso",
+      "path": "cursos/crear-webs-con-ia/casos/restaurante-estatico",
+      "status": "verificado",
+      "verified": "2026-07-15"
+    }
+  ]
 }

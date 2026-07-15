@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visita y solicitud de reserva — Lumbre y Oliva</title>
+    <meta name="description" content="Horario, dirección ficticia y solicitud local de reserva para el caso educativo Lumbre y Oliva.">
+    <link rel="canonical" href="https://lumbreyoliva.example/visita.html">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="demo-banner" role="note">Proyecto educativo de Aulafy · Contactos y dirección no operativos</div>
+    <header class="site-header"><div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Lumbre y Oliva, inicio"><span class="brand-mark" aria-hidden="true">L·O</span><span><strong>Lumbre y Oliva</strong><small>Cocina mediterránea</small></span></a>
+      <nav aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="carta.html">Carta</a><a href="visita.html" aria-current="page">Visita y reserva</a></nav>
+    </div></header>
+
+    <main id="contenido" tabindex="-1">
+      <header class="page-hero split-hero">
+        <div><p class="eyebrow">Planifica la visita</p><h1>Horario claro y una solicitud que puedes revisar</h1></div>
+        <p>Este prototipo no consulta disponibilidad ni envía datos. Prepara un correo en tu dispositivo; tú decides si lo abres y lo envías.</p>
+      </header>
+
+      <section class="visit-grid" id="horario" aria-labelledby="visit-title">
+        <div class="visit-card address-card">
+          <p class="eyebrow">Dirección ficticia</p>
+          <h2 id="visit-title">Plaza del Azahar, 12</h2>
+          <p>30000 · Ciudad Ejemplo, España</p>
+          <p class="notice"><strong>No viajes a esta dirección.</strong> Solo sirve para mostrar cómo presentar ubicación en un caso educativo.</p>
+          <div class="contact-list" id="contacto">
+            <a href="tel:+34000000000"><span>Teléfono demo</span><strong>+34 000 000 000</strong></a>
+            <a href="mailto:reservas@lumbreyoliva.example"><span>Correo demo</span><strong>reservas@lumbreyoliva.example</strong></a>
+          </div>
+        </div>
+        <div class="visit-card hours-card">
+          <p class="eyebrow">Horario de ejemplo</p>
+          <h2>Cuándo servimos</h2>
+          <dl class="hours-list">
+            <div><dt>Lunes</dt><dd>Cerrado</dd></div>
+            <div><dt>Martes–jueves</dt><dd>13:00–16:00 · 20:00–23:30</dd></div>
+            <div><dt>Viernes–sábado</dt><dd>13:00–16:00 · 20:00–23:30</dd></div>
+            <div><dt>Domingo</dt><dd>13:00–16:00</dd></div>
+          </dl>
+          <p class="microcopy">Un negocio real debería publicar festivos y fecha de revisión.</p>
+        </div>
+      </section>
+
+      <section class="reservation-section" id="reserva" aria-labelledby="reservation-title">
+        <div class="reservation-intro">
+          <p class="eyebrow">Solicitud local</p>
+          <h2 id="reservation-title">Prepara los datos de tu mesa</h2>
+          <p>Al terminar verás un resumen y un enlace para abrir tu aplicación de correo. No se envía nada al pulsar el botón.</p>
+          <ol class="step-list"><li>Rellena datos sintéticos.</li><li>Revisa el resumen.</li><li>Decide si abres el correo.</li></ol>
+          <p><a href="privacidad.html#formulario">Cómo trata datos este prototipo</a></p>
+        </div>
+
+        <form class="reservation-form" data-reservation-form>
+          <div class="field-row">
+            <div class="field"><label for="nombre">Nombre de contacto</label><input id="nombre" name="nombre" autocomplete="name" minlength="2" maxlength="80" required><small>Usa un nombre ficticio durante la práctica.</small></div>
+            <div class="field"><label for="email">Correo</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" required><small>Usa un correo de ejemplo, no uno personal.</small></div>
+          </div>
+          <div class="field-row three">
+            <div class="field"><label for="fecha">Fecha solicitada</label><input id="fecha" name="fecha" type="date" required></div>
+            <div class="field"><label for="turno">Turno</label><select id="turno" name="turno" required><option value="">Selecciona</option><option>Comida · 13:00–16:00</option><option>Cena · 20:00–23:30</option></select></div>
+            <div class="field"><label for="personas">Personas</label><select id="personas" name="personas" required><option value="">Selecciona</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></div>
+          </div>
+          <div class="field"><div class="label-row"><label for="mensaje">Nota opcional</label><span><output data-message-count>0</output>/500</span></div><textarea id="mensaje" name="mensaje" rows="5" maxlength="500" aria-describedby="message-help"></textarea><small id="message-help">No incluyas alergias, datos médicos ni información sensible en este ejemplo.</small></div>
+          <label class="check-field"><input type="checkbox" name="comprendido" required><span>Entiendo que esto prepara un correo, no envía la solicitud ni confirma una mesa.</span></label>
+          <button class="button button-primary" type="submit">Preparar solicitud</button>
+          <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+
+          <section class="request-preview" data-request-preview hidden aria-labelledby="preview-title">
+            <p class="eyebrow">Revisión antes de salir</p>
+            <h3 id="preview-title">Solicitud preparada</h3>
+            <pre data-request-summary></pre>
+            <p>El siguiente enlace abriría tu aplicación de correo. No lo uses con estos datos ficticios salvo para probar el funcionamiento local.</p>
+            <a class="button button-secondary" data-mailto-link href="mailto:reservas@lumbreyoliva.example">Abrir aplicación de correo</a>
+          </section>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-grid">
+      <div><strong>Lumbre y Oliva</strong><p>Negocio ficticio para aprender desarrollo web con Aulafy.</p></div>
+      <div><strong>Horario de ejemplo</strong><p>Mar–dom 13:00–16:00<br>Mar–sáb 20:00–23:30</p></div>
+      <div><strong>Contacto de demostración</strong><p><a href="tel:+34000000000">+34 000 000 000</a><br><a href="mailto:reservas@lumbreyoliva.example">reservas@lumbreyoliva.example</a></p></div>
+      <div><strong>Información</strong><p><a href="privacidad.html">Privacidad</a><br><a href="https://github.com/aulafy/taller">Código y licencia MIT</a></p></div>
+    </div><p class="footer-bottom">© <span data-year>2026</span> Aulafy · Ejemplo educativo, no establecimiento real.</p></footer>
+  </body>
+</html>
