@@ -38,6 +38,9 @@ for (const example of catalog.examples) {
   }
   assert.ok(["caso", "ejemplo", "laboratorio"].includes(example.kind), `Tipo inválido: ${example.id}`);
   assert.ok(["borrador", "verificado", "archivado"].includes(example.status), `Estado inválido: ${example.id}`);
+  if (example.status === "verificado") {
+    assert.match(example.verified ?? "", /^\d{4}-\d{2}-\d{2}$/, `Falta fecha de verificación: ${example.id}`);
+  }
 }
 
 console.log(`Estructura verificada: ${catalog.examples.length} ejemplos registrados.`);

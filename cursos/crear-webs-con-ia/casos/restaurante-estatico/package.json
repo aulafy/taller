@@ -1,0 +1,11 @@
+{
+  "name": "aulafy-restaurante-estatico",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Caso educativo de restaurante estático, accesible y móvil",
+  "scripts": {
+    "start": "node scripts/servidor.mjs",
+    "test": "node scripts/verificar.mjs"
+  },
+  "license": "MIT"
+}
