@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catálogo de ejemplos de Aulafy",
+  "type": "object",
+  "required": ["version", "updated", "examples"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "updated": { "type": "string", "format": "date" },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "course", "title", "kind", "path", "status", "verified"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "course": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string", "minLength": 8 },
+          "kind": { "enum": ["caso", "ejemplo", "laboratorio"] },
+          "path": { "type": "string", "pattern": "^cursos/" },
+          "status": { "enum": ["borrador", "verificado", "archivado"] },
+          "verified": { "type": ["string", "null"], "format": "date" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

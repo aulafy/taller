@@ -1,0 +1,10 @@
+{
+  "name": "aulafy-taller",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ejemplos y laboratorios educativos de Aulafy",
+  "scripts": {
+    "verificar": "node scripts/verificar-estructura.mjs"
+  },
+  "license": "MIT"
+}

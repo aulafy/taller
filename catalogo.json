@@ -1,0 +1,6 @@
+{
+  "$schema": "./docs/catalogo.schema.json",
+  "version": 1,
+  "updated": "2026-07-15",
+  "examples": []
+}
