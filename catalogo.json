@@ -10,7 +10,18 @@
       "kind": "caso",
       "path": "cursos/crear-webs-con-ia/casos/restaurante-estatico",
       "status": "verificado",
-      "verified": "2026-07-15"
+      "verified": "2026-07-15",
+      "demo": null
+    },
+    {
+      "id": "despacho-abogados-estatico",
+      "course": "crear-webs-con-ia",
+      "title": "Nexo Claro Legal: web estática para un despacho",
+      "kind": "caso",
+      "path": "cursos/crear-webs-con-ia/casos/despacho-abogados-estatico",
+      "status": "verificado",
+      "verified": "2026-07-15",
+      "demo": null
     }
   ]
 }
