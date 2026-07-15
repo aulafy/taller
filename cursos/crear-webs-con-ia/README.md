@@ -8,6 +8,10 @@ Código, casos completos y laboratorios vinculados al curso de Aulafy.
 
 Web móvil con contenido realista pero sintético, carta accesible, horarios, SEO local y solicitud de reserva. Está construida con HTML, CSS y JavaScript sin dependencias y se verifica con Node.js. No finge disponibilidad ni reseñas.
 
+### [Nexo Claro Legal: despacho jurídico estático](./casos/despacho-abogados-estatico/)
+
+Web multipágina para un servicio profesional ficticio, con áreas explicadas desde la necesidad, proceso visible y contacto mínimo sin relato del asunto ni documentos. Está construida con HTML, CSS y JavaScript sin dependencias y preparada para desplegarse como sitio estático.
+
 ## Casos previstos
 
 ### SaaS ficticio — itinerario avanzado

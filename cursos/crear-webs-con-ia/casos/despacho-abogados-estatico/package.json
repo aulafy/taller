@@ -1,0 +1,15 @@
+{
+  "name": "aulafy-caso-despacho-abogados-estatico",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Caso educativo: web estática de un despacho jurídico ficticio",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/servidor.mjs",
+    "test": "node scripts/verificar.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
