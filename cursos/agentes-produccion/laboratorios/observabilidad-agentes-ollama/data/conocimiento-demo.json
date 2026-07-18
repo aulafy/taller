@@ -1,0 +1,16 @@
+[
+  {
+    "documento_id": "politica-devoluciones-v3",
+    "version": "v3",
+    "seccion": "devoluciones",
+    "texto": "Las devoluciones se revisan en un plazo de 14 días desde la recepción del pedido.",
+    "tenant": "demo"
+  },
+  {
+    "documento_id": "politica-envios-v2",
+    "version": "v2",
+    "seccion": "seguimiento",
+    "texto": "El seguimiento se consulta con el identificador sintético del pedido.",
+    "tenant": "demo"
+  }
+]
