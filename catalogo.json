@@ -1,7 +1,7 @@
 {
   "$schema": "./docs/catalogo.schema.json",
   "version": 1,
-  "updated": "2026-07-15",
+  "updated": "2026-07-18",
   "examples": [
     {
       "id": "restaurante-estatico",
@@ -21,6 +21,16 @@
       "path": "cursos/crear-webs-con-ia/casos/despacho-abogados-estatico",
       "status": "verificado",
       "verified": "2026-07-15",
+      "demo": null
+    },
+    {
+      "id": "observabilidad-agentes-ollama",
+      "course": "agentes-produccion",
+      "title": "Observabilidad de agentes con Ollama y Langfuse",
+      "kind": "laboratorio",
+      "path": "cursos/agentes-produccion/laboratorios/observabilidad-agentes-ollama",
+      "status": "borrador",
+      "verified": null,
       "demo": null
     }
   ]
