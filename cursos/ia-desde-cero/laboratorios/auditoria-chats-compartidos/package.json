@@ -1,0 +1,17 @@
+{
+  "name": "aulafy-auditoria-chats-compartidos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio sin red para auditar enlaces de chats compartidos",
+  "type": "module",
+  "scripts": {
+    "auditar": "node scripts/auditar.mjs datos/inventario-inicial.json",
+    "auditar:solucion": "node scripts/auditar.mjs solucion/inventario.json",
+    "test": "node --test",
+    "verificar": "npm test && npm run auditar:solucion"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "license": "MIT"
+}

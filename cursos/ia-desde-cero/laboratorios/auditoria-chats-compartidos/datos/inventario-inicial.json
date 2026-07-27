@@ -1,0 +1,38 @@
+{
+  "nota": "Datos completamente ficticios. Corrige las decisiones sin sustituirlos por datos reales.",
+  "enlaces": [
+    {
+      "id": "DEMO-001",
+      "proveedor": "chatgpt",
+      "url_ficticia": "https://chat-ejemplo.invalid/share/DEMO-001",
+      "clasificacion": "publico",
+      "estado": "activo",
+      "accion": "mantener",
+      "alcance_comprobado": true,
+      "ventana_privada_comprobada": true,
+      "evidencia": "Contiene únicamente instrucciones públicas del ejercicio."
+    },
+    {
+      "id": "DEMO-002",
+      "proveedor": "claude",
+      "url_ficticia": "https://chat-ejemplo.invalid/share/DEMO-002",
+      "clasificacion": "confidencial",
+      "estado": "activo",
+      "accion": "mantener",
+      "alcance_comprobado": false,
+      "ventana_privada_comprobada": false,
+      "evidencia": "Incluye el pedido ficticio PED-DEMO-2048; pendiente de revisar."
+    },
+    {
+      "id": "DEMO-003",
+      "proveedor": "gemini",
+      "url_ficticia": "https://chat-ejemplo.invalid/share/DEMO-003",
+      "clasificacion": "interno",
+      "estado": "revocado",
+      "accion": "revocar",
+      "alcance_comprobado": true,
+      "ventana_privada_comprobada": true,
+      "evidencia": "La URL ficticia dejó de abrirse; podrían existir copias externas."
+    }
+  ]
+}
