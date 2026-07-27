@@ -72,6 +72,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "minimizar-datos-antes-ia",
+      "course": "ia-pymes",
+      "title": "Minimizar y seudonimizar datos antes de usar IA",
+      "kind": "laboratorio",
+      "path": "cursos/ia-pymes/laboratorios/minimizar-datos-antes-ia",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "finalidad": "Clasificar el tema y priorizar solicitudes de soporte sin responder ni decidir automáticamente.",
+  "campos_necesarios": ["caso_id", "provincia", "tramo_importe", "incidencia_minimizada"],
+  "campos_retirados": ["cliente_id", "nombre", "dni", "email", "telefono", "iban", "ciudad", "edad", "importe_exacto"],
+  "acciones_prohibidas": ["contactar", "devolver dinero", "modificar cuenta", "publicar", "reidentificar"],
+  "revision": "Una persona valida categoría y prioridad antes de cualquier acción."
+}

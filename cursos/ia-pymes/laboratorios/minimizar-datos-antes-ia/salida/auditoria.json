@@ -1,0 +1,9 @@
+{
+  "registros_entrada": 8,
+  "registros_salida": 8,
+  "campos_entrada": 11,
+  "campos_salida": 4,
+  "identificadores_directos_residuales": [],
+  "patrones_directos_residuales": [],
+  "advertencia": "Cero coincidencias directas no demuestra anonimización ni elimina el riesgo de reidentificación."
+}

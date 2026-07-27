@@ -1,0 +1,16 @@
+{
+  "name": "aulafy-minimizar-datos-antes-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio local para minimizar un conjunto sintético antes de usar IA",
+  "type": "module",
+  "scripts": {
+    "minimizar": "node scripts/minimizar.mjs",
+    "test": "node --test",
+    "verificar": "npm test && npm run minimizar && node scripts/verificar-salida.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "license": "MIT"
+}
