@@ -1,0 +1,14 @@
+{
+  "name": "@aulafy/guardas-coste-y-loops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "simular": "node scripts/simular.mjs",
+    "test": "node --test",
+    "verificar": "npm run test && npm run simular && node scripts/auditar.mjs"
+  }
+}

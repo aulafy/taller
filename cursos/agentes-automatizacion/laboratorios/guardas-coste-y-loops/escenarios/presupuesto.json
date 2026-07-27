@@ -1,0 +1,8 @@
+{
+  "id": "presupuesto",
+  "esperado": {"estado": "detenido", "motivo": "presupuesto_reservado", "pasos_ejecutados": 1, "coste_microusd": 1200},
+  "acciones": [
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":1000,"salida_maxima":200,"entrada_real":800,"salida_real":100,"elapsed_ms":2000,"progreso":"analisis-inicial"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":3000,"salida_maxima":1000,"entrada_real":0,"salida_real":0,"elapsed_ms":4000,"progreso":"analisis-ampliado"}
+  ]
+}

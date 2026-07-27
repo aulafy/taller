@@ -1,0 +1,9 @@
+{
+  "id": "sin-progreso",
+  "esperado": {"estado": "detenido", "motivo": "sin_progreso", "pasos_ejecutados": 2, "coste_microusd": 200},
+  "acciones": [
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":1000,"progreso":"sin-cambios"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":2000,"progreso":"sin-cambios"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":3000,"progreso":"sin-cambios"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "max_pasos": 8,
+  "max_coste_microusd": 6000,
+  "max_llamadas_por_tool": 2,
+  "max_fingerprint_repetido": 3,
+  "max_sin_progreso": 3,
+  "max_runtime_ms": 300000
+}
