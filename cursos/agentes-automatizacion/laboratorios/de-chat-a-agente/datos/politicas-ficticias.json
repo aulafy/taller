@@ -1,0 +1,22 @@
+[
+  {
+    "id": "DEV-01",
+    "titulo": "Devoluciones de compras online",
+    "texto": "Las compras online pueden devolverse dentro de los 30 días naturales posteriores a la entrega. El producto debe conservar sus accesorios."
+  },
+  {
+    "id": "DEV-02",
+    "titulo": "Devoluciones en tienda física",
+    "texto": "Las compras realizadas en tienda física pueden devolverse durante 14 días naturales con el recibo de compra."
+  },
+  {
+    "id": "ENV-01",
+    "titulo": "Preparación de envíos",
+    "texto": "Los pedidos se preparan normalmente en 24 a 48 horas laborables. Este plazo no incluye el transporte."
+  },
+  {
+    "id": "PRIV-01",
+    "titulo": "Datos del caso formativo",
+    "texto": "Tienda Brújula es una empresa ficticia. Este conjunto no contiene nombres, pedidos ni datos de clientes reales."
+  }
+]

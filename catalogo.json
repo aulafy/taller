@@ -42,6 +42,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "de-chat-a-agente",
+      "course": "agentes-automatizacion",
+      "title": "De chat a agente: llamada, tool, MCP, RAG y loop",
+      "kind": "laboratorio",
+      "path": "cursos/agentes-automatizacion/laboratorios/de-chat-a-agente",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }
