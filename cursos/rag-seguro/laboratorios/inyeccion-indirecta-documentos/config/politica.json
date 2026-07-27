@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "herramientas": {
+    "responder": {"efecto": "ninguno", "riesgo": "bajo"},
+    "leer_documento": {"efecto": "lectura", "riesgo": "bajo"},
+    "enviar_email": {"efecto": "escritura_externa", "riesgo": "alto"},
+    "actualizar_factura": {"efecto": "escritura", "riesgo": "alto"},
+    "leer_secreto": {"efecto": "lectura_sensible", "riesgo": "critico"},
+    "publicar_web": {"efecto": "escritura_externa", "riesgo": "alto"}
+  },
+  "efectos_permitidos_desde_fuente_no_confiable": ["ninguno", "lectura"],
+  "riesgos_con_aprobacion_obligatoria": ["alto", "critico"],
+  "dominios_externos_permitidos": ["cliente.example"],
+  "campos_sensibles": ["secreto", "token", "password", "iban", "dni", "nomina"]
+}
