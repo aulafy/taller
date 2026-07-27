@@ -52,6 +52,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "auditoria-chats-compartidos",
+      "course": "ia-desde-cero",
+      "title": "Auditoría segura de chats compartidos",
+      "kind": "laboratorio",
+      "path": "cursos/ia-desde-cero/laboratorios/auditoria-chats-compartidos",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }
