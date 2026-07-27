@@ -1,7 +1,7 @@
 {
   "$schema": "./docs/catalogo.schema.json",
   "version": 1,
-  "updated": "2026-07-15",
+  "updated": "2026-07-27",
   "examples": [
     {
       "id": "restaurante-estatico",
@@ -21,6 +21,16 @@
       "path": "cursos/crear-webs-con-ia/casos/despacho-abogados-estatico",
       "status": "verificado",
       "verified": "2026-07-15",
+      "demo": null
+    },
+    {
+      "id": "higiene-repositorio-agentes",
+      "course": "codex-programadores",
+      "title": "Higiene de repositorios con agentes de código",
+      "kind": "laboratorio",
+      "path": "cursos/codex-programadores/laboratorios/higiene-repositorio-agentes",
+      "status": "verificado",
+      "verified": "2026-07-27",
       "demo": null
     }
   ]

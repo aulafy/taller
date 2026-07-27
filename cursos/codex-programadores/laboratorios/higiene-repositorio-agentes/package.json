@@ -1,0 +1,16 @@
+{
+  "name": "aulafy-laboratorio-higiene-agentes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:solucion": "AULAFY_TASKS_MODULE=solucion node --test",
+    "auditar": "node scripts/auditar-higiene.mjs src/tasks.mjs",
+    "auditar:solucion": "node scripts/auditar-higiene.mjs solucion/tasks.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
