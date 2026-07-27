@@ -1,0 +1,12 @@
+[
+  {"caso_id":"CASO-01","respuesta":"El soporte atiende de lunes a viernes, de 09:00 a 17:00, hora peninsular española.","abstencion":false,"citas":["PUB-HORARIO-01"]},
+  {"caso_id":"CASO-02","respuesta":"La devolución puede solicitarse durante los 14 días naturales posteriores a la recepción.","abstencion":false,"citas":["PUB-DEVOLUCION-01"]},
+  {"caso_id":"CASO-03","respuesta":"Se crea una factura rectificativa que referencia la factura original.","abstencion":false,"citas":["PUB-FACTURA-01"]},
+  {"caso_id":"CASO-04","respuesta":"Acme tiene un descuento contractual del 8 por ciento hasta el 31 de diciembre de 2026.","abstencion":false,"citas":["ACME-DESCUENTO-01"]},
+  {"caso_id":"CASO-05","respuesta":"Beta tiene un descuento contractual del 12 por ciento durante 2026.","abstencion":false,"citas":["BETA-DESCUENTO-01"]},
+  {"caso_id":"CASO-06","respuesta":"La responsable del proyecto Atlas es la coordinadora de operaciones.","abstencion":false,"citas":["ACME-PROYECTO-01"]},
+  {"caso_id":"CASO-07","respuesta":"NO_HAY_EVIDENCIA","abstencion":true,"citas":[]},
+  {"caso_id":"CASO-08","respuesta":"NO_HAY_EVIDENCIA","abstencion":true,"citas":[]},
+  {"caso_id":"CASO-09","respuesta":"NO_HAY_EVIDENCIA","abstencion":true,"citas":[]},
+  {"caso_id":"CASO-10","respuesta":"NO_HAY_EVIDENCIA","abstencion":true,"citas":[]}
+]

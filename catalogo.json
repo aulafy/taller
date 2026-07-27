@@ -102,6 +102,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "evaluar-rag-citas-abstencion",
+      "course": "rag-seguro",
+      "title": "Evaluar un RAG: recuperación, citas, abstención y permisos",
+      "kind": "laboratorio",
+      "path": "cursos/rag-seguro/laboratorios/evaluar-rag-citas-abstencion",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }
