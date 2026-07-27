@@ -1,0 +1,14 @@
+{
+  "name": "@aulafy/inyeccion-indirecta-documentos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {"node": ">=20.11"},
+  "scripts": {
+    "evaluar": "node scripts/evaluar.mjs",
+    "test": "node --test",
+    "auditar": "node scripts/auditar.mjs",
+    "verificar": "npm run test && npm run evaluar && npm run auditar"
+  }
+}

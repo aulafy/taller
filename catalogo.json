@@ -122,6 +122,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "inyeccion-indirecta-documentos",
+      "course": "rag-seguro",
+      "title": "Inyección indirecta: documentos que intentan dar órdenes",
+      "kind": "laboratorio",
+      "path": "cursos/rag-seguro/laboratorios/inyeccion-indirecta-documentos",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }
