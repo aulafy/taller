@@ -112,6 +112,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "guardas-coste-y-loops",
+      "course": "agentes-automatizacion",
+      "title": "Detener loops y controlar el coste de agentes",
+      "kind": "laboratorio",
+      "path": "cursos/agentes-automatizacion/laboratorios/guardas-coste-y-loops",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }

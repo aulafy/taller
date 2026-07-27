@@ -1,0 +1,15 @@
+{
+  "id": "max-pasos",
+  "esperado": {"estado": "detenido", "motivo": "max_pasos", "pasos_ejecutados": 8, "coste_microusd": 800},
+  "acciones": [
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":1000,"progreso":"p1"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":2000,"progreso":"p2"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":3000,"progreso":"p3"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":4000,"progreso":"p4"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":5000,"progreso":"p5"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":6000,"progreso":"p6"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":7000,"progreso":"p7"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":8000,"progreso":"p8"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":9000,"progreso":"p9"}
+  ]
+}

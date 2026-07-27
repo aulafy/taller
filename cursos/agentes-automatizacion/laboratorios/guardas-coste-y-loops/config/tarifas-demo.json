@@ -1,0 +1,17 @@
+{
+  "aviso": "Tarifas ficticias para aprender el cálculo. Sustituir por precios oficiales vigentes.",
+  "modelos": {
+    "modelo-demo": {
+      "entrada_microusd_por_token": 1,
+      "salida_microusd_por_token": 4
+    }
+  },
+  "tools": {
+    "consultar_crm": {
+      "coste_microusd_por_llamada": 1000
+    },
+    "buscar_web": {
+      "coste_microusd_por_llamada": 1500
+    }
+  }
+}

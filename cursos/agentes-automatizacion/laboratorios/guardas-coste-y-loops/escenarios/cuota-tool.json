@@ -1,0 +1,9 @@
+{
+  "id": "cuota-tool",
+  "esperado": {"estado": "detenido", "motivo": "cuota_tool", "pasos_ejecutados": 2, "coste_microusd": 3000},
+  "acciones": [
+    {"tipo":"tool","tool":"buscar_web","args":{"q":"manual A"},"intencion":"buscar fuente","elapsed_ms":1000,"progreso":"fuente-a"},
+    {"tipo":"tool","tool":"buscar_web","args":{"q":"manual B"},"intencion":"buscar otra fuente","elapsed_ms":2000,"progreso":"fuente-b"},
+    {"tipo":"tool","tool":"buscar_web","args":{"q":"manual C"},"intencion":"buscar tercera fuente","elapsed_ms":3000,"progreso":"fuente-c"}
+  ]
+}

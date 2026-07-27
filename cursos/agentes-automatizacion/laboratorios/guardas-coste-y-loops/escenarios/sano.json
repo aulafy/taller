@@ -1,0 +1,10 @@
+{
+  "id": "sano",
+  "esperado": {"estado": "completado", "motivo": null, "pasos_ejecutados": 4, "coste_microusd": 4200},
+  "acciones": [
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":600,"salida_maxima":200,"entrada_real":500,"salida_real":100,"elapsed_ms":5000,"progreso":"plan-creado"},
+    {"tipo":"tool","tool":"consultar_crm","args":{"cliente_id":"CLI-DEMO-01"},"intencion":"consultar estado","elapsed_ms":9000,"progreso":"estado-obtenido"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":900,"salida_maxima":250,"entrada_real":700,"salida_real":150,"elapsed_ms":13000,"progreso":"borrador-creado"},
+    {"tipo":"tool","tool":"consultar_crm","args":{"cliente_id":"CLI-DEMO-02"},"intencion":"contrastar muestra","elapsed_ms":16000,"progreso":"muestra-contrastada"}
+  ]
+}

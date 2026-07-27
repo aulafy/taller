@@ -1,0 +1,8 @@
+{
+  "id": "timeout",
+  "esperado": {"estado": "detenido", "motivo": "runtime", "pasos_ejecutados": 1, "coste_microusd": 100},
+  "acciones": [
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":1000,"progreso":"inicio"},
+    {"tipo":"modelo","modelo":"modelo-demo","entrada_estimada":100,"salida_maxima":20,"entrada_real":80,"salida_real":5,"elapsed_ms":301000,"progreso":"demasiado-tarde"}
+  ]
+}
