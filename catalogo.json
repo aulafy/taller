@@ -92,6 +92,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "mcp-oficina-solo-lectura",
+      "course": "ia-pymes",
+      "title": "Primer MCP seguro para oficina: local y de solo lectura",
+      "kind": "laboratorio",
+      "path": "cursos/ia-pymes/laboratorios/mcp-oficina-solo-lectura",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }

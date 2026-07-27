@@ -1,0 +1,19 @@
+{
+  "name": "@aulafy/mcp-oficina-solo-lectura",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "start": "node src/servidor.mjs",
+    "probar": "node scripts/probar-cliente.mjs",
+    "test": "node --test",
+    "verificar": "npm run test && npm run probar && node scripts/auditar.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "3.25.76"
+  }
+}
