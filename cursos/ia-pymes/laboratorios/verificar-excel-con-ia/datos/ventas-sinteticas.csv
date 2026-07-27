@@ -1,0 +1,13 @@
+id,fecha,region,producto,unidades,precio,coste_unitario,descuento
+DEMO-001,2026-06-02,Norte,Servicio A,2,120,45,0
+DEMO-002,2026-06-03,Sur,Servicio B,1,300,120,0.10
+DEMO-003,2026-06-05,Este,Servicio A,3,120,45,0
+DEMO-004,2026-06-08,Oeste,Servicio C,4,80,30,0
+DEMO-005,2026-06-10,Norte,Servicio B,2,300,120,0.05
+DEMO-006,2026-06-12,Sur,Servicio C,5,80,30,0
+DEMO-007,2026-06-15,Este,Servicio A,1,120,45,0
+DEMO-008,2026-06-17,Oeste,Servicio B,2,300,120,0
+DEMO-009,2026-06-19,Norte,Servicio C,3,80,30,0.15
+DEMO-010,2026-06-22,Sur,Servicio A,4,120,45,0
+DEMO-011,2026-06-25,Este,Servicio B,1,300,120,0
+DEMO-012,2026-06-29,Oeste,Servicio C,2,80,30,0
