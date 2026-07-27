@@ -1,0 +1,16 @@
+{
+  "name": "aulafy-verificar-excel-con-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio para detectar errores silenciosos en fórmulas propuestas por IA",
+  "type": "module",
+  "scripts": {
+    "auditar": "node scripts/auditar.mjs",
+    "test": "node --test",
+    "verificar": "npm test && npm run auditar"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "license": "MIT"
+}

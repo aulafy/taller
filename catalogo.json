@@ -62,6 +62,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "verificar-excel-con-ia",
+      "course": "ia-pymes",
+      "title": "Verificar fórmulas de Excel propuestas por IA",
+      "kind": "laboratorio",
+      "path": "cursos/ia-pymes/laboratorios/verificar-excel-con-ia",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }
