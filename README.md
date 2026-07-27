@@ -56,7 +56,7 @@ npm run verificar
 
 ## Relación con los cursos
 
-Los itinerarios preparados incluyen [`crear-webs-con-ia`](./cursos/crear-webs-con-ia/README.md), asociado al curso **Crea webs profesionales con IA desde cero**, y [`higiene-repositorio-agentes`](./cursos/codex-programadores/laboratorios/higiene-repositorio-agentes/), donde se practica cómo reducir código redundante sin alterar el comportamiento. El catálogo crecerá a medida que Aulafy publique y revise ejemplos de otros cursos.
+Los itinerarios preparados incluyen [`crear-webs-con-ia`](./cursos/crear-webs-con-ia/README.md), asociado al curso **Crea webs profesionales con IA desde cero**; [`higiene-repositorio-agentes`](./cursos/codex-programadores/laboratorios/higiene-repositorio-agentes/), donde se practica cómo reducir código redundante sin alterar el comportamiento; y [`ollama-piloto-seguro`](./cursos/ia-pymes/laboratorios/ollama-piloto-seguro/), que mide una prueba local con datos ficticios y bloquea destinos remotos. El catálogo crecerá a medida que Aulafy publique y revise ejemplos de otros cursos.
 
 ## Contribuir
 

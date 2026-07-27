@@ -1,0 +1,17 @@
+{
+  "name": "aulafy-ollama-piloto-seguro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diagnóstico local y prueba medible de Ollama para una pyme ficticia",
+  "type": "module",
+  "scripts": {
+    "diagnostico": "node scripts/diagnostico.mjs",
+    "probar": "node scripts/probar-piloto.mjs",
+    "test": "node --test",
+    "verificar": "npm test && node scripts/auditar-seguridad.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
