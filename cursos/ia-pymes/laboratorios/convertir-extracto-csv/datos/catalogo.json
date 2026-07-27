@@ -1,0 +1,34 @@
+{
+  "categorias_permitidas": [
+    "ventas",
+    "alquiler",
+    "software",
+    "suministros",
+    "comisiones",
+    "transporte",
+    "impuestos",
+    "transferencias"
+  ],
+  "categoria_por_movimiento": {
+    "MOV-DEMO-001": "ventas",
+    "MOV-DEMO-002": "alquiler",
+    "MOV-DEMO-003": "software",
+    "MOV-DEMO-004": "suministros",
+    "MOV-DEMO-005": "ventas",
+    "MOV-DEMO-006": "comisiones",
+    "MOV-DEMO-007": "transporte",
+    "MOV-DEMO-008": "impuestos",
+    "MOV-DEMO-009": "ventas",
+    "MOV-DEMO-010": "suministros",
+    "MOV-DEMO-011": "software",
+    "MOV-DEMO-012": "transporte",
+    "MOV-DEMO-013": "ventas",
+    "MOV-DEMO-014": "suministros",
+    "MOV-DEMO-015": "alquiler",
+    "MOV-DEMO-016": "comisiones",
+    "MOV-DEMO-017": "ventas",
+    "MOV-DEMO-018": "software",
+    "MOV-DEMO-019": "impuestos",
+    "MOV-DEMO-020": "transferencias"
+  }
+}

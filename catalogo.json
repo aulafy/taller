@@ -82,6 +82,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "convertir-extracto-csv",
+      "course": "ia-pymes",
+      "title": "Convertir un extracto a CSV sin inventar movimientos",
+      "kind": "laboratorio",
+      "path": "cursos/ia-pymes/laboratorios/convertir-extracto-csv",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }

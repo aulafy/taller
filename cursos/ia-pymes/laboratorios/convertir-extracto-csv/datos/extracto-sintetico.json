@@ -1,0 +1,22 @@
+[
+  { "id": "MOV-DEMO-001", "fecha": "02/06/2026", "concepto": "Ingreso por servicio Alfa", "importe": 1500.00 },
+  { "id": "MOV-DEMO-002", "fecha": "03/06/2026", "concepto": "Cuota de espacio de trabajo", "importe": -120.00 },
+  { "id": "MOV-DEMO-003", "fecha": "04/06/2026", "concepto": "Suscripción de software", "importe": -49.90 },
+  { "id": "MOV-DEMO-004", "fecha": "05/06/2026", "concepto": "Suministro eléctrico", "importe": -89.30 },
+  { "id": "MOV-DEMO-005", "fecha": "05/06/2026", "concepto": "Ingreso por servicio Beta", "importe": 870.00 },
+  { "id": "MOV-DEMO-006", "fecha": "06/06/2026", "concepto": "Comisión de cuenta", "importe": -12.50 },
+  { "id": "MOV-DEMO-007", "fecha": "06/06/2026", "concepto": "Billete de transporte", "importe": -63.20 },
+  { "id": "MOV-DEMO-008", "fecha": "07/06/2026", "concepto": "Pago tributario de ejemplo", "importe": -250.00 },
+  { "id": "MOV-DEMO-009", "fecha": "08/06/2026", "concepto": "Ingreso por servicio Gamma", "importe": 1200.00 },
+  { "id": "MOV-DEMO-010", "fecha": "09/06/2026", "concepto": "Material de oficina", "importe": -75.50 },
+  { "id": "MOV-DEMO-011", "fecha": "10/06/2026", "concepto": "Herramienta de diseño", "importe": -32.00 },
+  { "id": "MOV-DEMO-012", "fecha": "11/06/2026", "concepto": "Desplazamiento urbano", "importe": -18.20 },
+  { "id": "MOV-DEMO-013", "fecha": "12/06/2026", "concepto": "Ingreso por mantenimiento", "importe": 640.00 },
+  { "id": "MOV-DEMO-014", "fecha": "15/06/2026", "concepto": "Suministro de comunicaciones", "importe": -99.99 },
+  { "id": "MOV-DEMO-015", "fecha": "16/06/2026", "concepto": "Alquiler de equipo", "importe": -450.00 },
+  { "id": "MOV-DEMO-016", "fecha": "17/06/2026", "concepto": "Comisión por transferencia", "importe": -15.00 },
+  { "id": "MOV-DEMO-017", "fecha": "18/06/2026", "concepto": "Ingreso por formación", "importe": 310.00 },
+  { "id": "MOV-DEMO-018", "fecha": "22/06/2026", "concepto": "Licencia de productividad", "importe": -45.00 },
+  { "id": "MOV-DEMO-019", "fecha": "25/06/2026", "concepto": "Pago administrativo de ejemplo", "importe": -110.00 },
+  { "id": "MOV-DEMO-020", "fecha": "29/06/2026", "concepto": "Transferencia interna recibida", "importe": 90.00 }
+]
