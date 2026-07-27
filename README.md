@@ -19,6 +19,8 @@ cursos/
     casos/
     ejemplos/
     laboratorios/
+  codex-programadores/
+    laboratorios/
 plantillas/
   ejemplo-aulafy/
 docs/
@@ -54,7 +56,7 @@ npm run verificar
 
 ## Relación con los cursos
 
-El primer itinerario preparado es [`crear-webs-con-ia`](./cursos/crear-webs-con-ia/README.md), asociado al curso **Crea webs profesionales con IA desde cero**. El catálogo crecerá a medida que Aulafy publique y revise ejemplos de otros cursos.
+Los itinerarios preparados incluyen [`crear-webs-con-ia`](./cursos/crear-webs-con-ia/README.md), asociado al curso **Crea webs profesionales con IA desde cero**, y [`higiene-repositorio-agentes`](./cursos/codex-programadores/laboratorios/higiene-repositorio-agentes/), donde se practica cómo reducir código redundante sin alterar el comportamiento. El catálogo crecerá a medida que Aulafy publique y revise ejemplos de otros cursos.
 
 ## Contribuir
 
