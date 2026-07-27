@@ -1,0 +1,14 @@
+[
+  {"id":"PED-DEMO-001","fecha":"2026-07-01","estado":"pendiente","canal":"web","importe_cents":12990},
+  {"id":"PED-DEMO-002","fecha":"2026-07-02","estado":"preparacion","canal":"tienda","importe_cents":4590},
+  {"id":"PED-DEMO-003","fecha":"2026-07-03","estado":"enviado","canal":"web","importe_cents":8990},
+  {"id":"PED-DEMO-004","fecha":"2026-07-04","estado":"entregado","canal":"telefono","importe_cents":23500},
+  {"id":"PED-DEMO-005","fecha":"2026-07-05","estado":"incidencia","canal":"web","importe_cents":3190},
+  {"id":"PED-DEMO-006","fecha":"2026-07-06","estado":"pendiente","canal":"tienda","importe_cents":15600},
+  {"id":"PED-DEMO-007","fecha":"2026-07-07","estado":"enviado","canal":"telefono","importe_cents":7790},
+  {"id":"PED-DEMO-008","fecha":"2026-07-08","estado":"entregado","canal":"web","importe_cents":11650},
+  {"id":"PED-DEMO-009","fecha":"2026-07-09","estado":"preparacion","canal":"web","importe_cents":5200},
+  {"id":"PED-DEMO-010","fecha":"2026-07-10","estado":"incidencia","canal":"tienda","importe_cents":1990},
+  {"id":"PED-DEMO-011","fecha":"2026-07-11","estado":"entregado","canal":"telefono","importe_cents":6300},
+  {"id":"PED-DEMO-012","fecha":"2026-07-12","estado":"pendiente","canal":"web","importe_cents":9800}
+]
