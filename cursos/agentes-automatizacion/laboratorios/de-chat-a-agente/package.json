@@ -1,0 +1,20 @@
+{
+  "name": "aulafy-de-chat-a-agente",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio progresivo: llamada, tool, MCP, RAG y bucle agéntico",
+  "type": "module",
+  "scripts": {
+    "etapa:1": "node etapas/01-llamada-modelo.mjs",
+    "etapa:2": "node etapas/02-tool-directa.mjs",
+    "etapa:3": "node etapas/03-tool-por-mcp.mjs",
+    "etapa:4": "node etapas/04-rag-con-citas.mjs",
+    "etapa:5": "node etapas/05-bucle-agente.mjs",
+    "test": "node --test",
+    "verificar": "npm test && node scripts/auditar-seguridad.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "license": "MIT"
+}
