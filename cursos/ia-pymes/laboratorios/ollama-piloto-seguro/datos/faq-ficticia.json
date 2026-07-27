@@ -1,0 +1,8 @@
+{
+  "empresa": "Nube Clara (empresa ficticia)",
+  "pregunta": "¿La tienda abre el sábado?",
+  "hechos_autorizados": [
+    "La tienda abre de lunes a viernes de 09:00 a 18:00."
+  ],
+  "respuesta_esperada": "No consta."
+}

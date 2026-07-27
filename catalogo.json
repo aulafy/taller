@@ -32,6 +32,16 @@
       "status": "verificado",
       "verified": "2026-07-27",
       "demo": null
+    },
+    {
+      "id": "ollama-piloto-seguro",
+      "course": "ia-pymes",
+      "title": "Ollama para una pyme: piloto local, medible y seguro",
+      "kind": "laboratorio",
+      "path": "cursos/ia-pymes/laboratorios/ollama-piloto-seguro",
+      "status": "verificado",
+      "verified": "2026-07-27",
+      "demo": null
     }
   ]
 }
