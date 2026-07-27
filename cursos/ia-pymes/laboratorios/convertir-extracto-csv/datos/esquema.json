@@ -1,0 +1,12 @@
+{
+  "columnas": ["movimiento_id", "fecha_iso", "descripcion", "categoria", "tipo", "importe"],
+  "reglas": {
+    "movimiento_id": "Debe conservar exactamente un ID del origen y aparecer una sola vez.",
+    "fecha_iso": "YYYY-MM-DD, interpretando la entrada como DD/MM/YYYY.",
+    "descripcion": "Debe conservar el concepto; no puede comenzar por =, +, - o @.",
+    "categoria": "Un valor exacto del catálogo cerrado.",
+    "tipo": "ingreso si el importe es positivo; gasto si es negativo.",
+    "importe": "Número firmado idéntico al origen, con dos decimales."
+  },
+  "conciliacion": "El número de filas, el conjunto de IDs y la suma en céntimos deben coincidir con el origen."
+}
